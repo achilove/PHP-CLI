@@ -5,5 +5,11 @@ go build create.go
 
 
 how to run?
-create.exe -create NameOfYourController
+From current directory:
+create.exe -c NameOfYourController
+Maki it global:
+Copy the create.exe & create.bat files to "C:\Windows\System32\" 
+and then 
+create -c NameOfYourController
+
 
